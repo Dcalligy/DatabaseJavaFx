@@ -35,7 +35,7 @@ import javafx.scene.layout.VBox;
 
 /**
  *
- * @author Dilly
+ * @author Dillon
  */
 public class DatabaseJavaFx extends Application {
     
@@ -65,7 +65,7 @@ public class DatabaseJavaFx extends Application {
         title.setMinWidth(200);
         // binding the data from the FilmDAO in the UI TableView section
         title.setCellValueFactory(
-                new PropertyValueFactory<FilmDAO, String>("fileName"));
+                new PropertyValueFactory<FilmDAO, String>("filmName"));
         
         TableColumn description = new TableColumn("Description");
         description.setMinWidth(700);
