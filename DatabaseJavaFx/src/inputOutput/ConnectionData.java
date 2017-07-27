@@ -7,7 +7,7 @@ package inputOutput;
 
 /**
  *
- * @author Dilly
+ * @author Dillon
  */
 public class ConnectionData {
     
