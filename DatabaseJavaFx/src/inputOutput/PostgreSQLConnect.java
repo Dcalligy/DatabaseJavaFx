@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author Dilly
+ * @author Dillon
  */
 public class PostgreSQLConnect {
 
